@@ -23,11 +23,3 @@ const PostNav = () => {
 export default PostNav;
 
 
-
-/*
-     <div>
-            <Button style={{ marginRight: "10px" }}>Sign in</Button>
-            <Button>Get Started</Button>
-          </div>
-
-*/
