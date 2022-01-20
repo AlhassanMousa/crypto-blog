@@ -1,0 +1,401 @@
+@import url("https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Tinos", serif;
+  text-decoration: none;
+}
+
+.NavBar {
+  background:#0d0d0e  ;
+  border-bottom: 1px solid #2a2a2a;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  transition: 350ms ease-in-out ;
+  height: 80px;
+
+
+  .NavBar_Container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+ 
+  }
+ 
+/*
+
+    .NavBar_Container-left{
+      float: left;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      margin-top: -45px;
+      padding-top: 5px;
+      margin-bottom: 10px;
+      width: 100%;
+      
+      
+    }
+   
+
+*/
+.right{
+  color: white;
+   float: right;
+  margin-top: 30px;  
+
+}
+
+
+
+  .NavBar_Lists {
+
+    button {
+      background: #191919;
+      color: #fff;
+      text-transform: inherit;
+      border-radius: 50px;
+      padding: 5px 15px;
+      font-size: 16px;
+    }
+   a{
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+  }
+    ul {
+      display: flex;
+      align-items: center;
+      li {
+        margin-left: 25px;
+        list-style: none;
+        cursor: pointer;
+        font-size: 16px;
+        text-transform: uppercase;
+        font-size: medium;
+      }
+    }
+  }
+
+  img {
+    max-width: 80px;
+    padding: 15px;
+  }
+}
+
+.NavBar.active {
+  background: #171e27  ;
+  button {
+    background: #1a8917;
+  }
+}
+
+.App_MainSection {
+  background: #cee1e8;
+  padding: 40px;
+
+  h1 {
+    font-size: 50px;
+    font-weight: 400;
+    color: #080808;
+  }
+
+  button {
+    border: 2px solid #2a2a2a;
+    text-transform: inherit;
+    color: #2a2a2a;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 50px;
+    padding: 5px 20px;
+    margin: 35px 0;
+  }
+
+  p {
+    font-weight: 300;
+    font-size: 20px;
+    color: #2a2a2a;
+    margin-top: 35px;
+
+    a {
+      color: #2a2a2a;
+    }
+  }
+
+  img {
+    max-width: 100px;
+  }
+}
+
+form {
+  margin: 50px 0;
+
+  .Form_SubmitBtn {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+    button {
+      background: #080808;
+      color: #fff;
+      font-weight: 600;
+      text-transform: inherit;
+      padding: 6px;
+      width: 100%;
+      max-width: 200px;
+      font-size: 17px;
+    }
+
+    button:hover {
+      background: #080808;
+      color: #fff;
+    }
+  }
+  h1 {
+    color: #191919;
+    font-size: 50px;
+    font-weight: 400;
+  }
+
+  .Form_InputDivs {
+    margin: 35px 0;
+
+    p {
+      font-weight: 600;
+      color: #191919;
+      margin-bottom: 5px;
+    }
+
+    input {
+      padding: 10px;
+      width: 100%;
+      font-size: 18px;
+      outline-width: 0;
+      border: 1px solid #191919;
+      border-radius: 5px;
+    }
+  }
+}
+
+.App_posts {
+  border-top: 2px solid #e6e6e6;
+  background-color: #141212  ;
+
+}
+.photo{
+  border-radius: 50px;
+}
+.span1{
+  display: inline-block;
+}
+.MediumPosts {
+  display: block;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin: 60px auto;
+  cursor: pointer;
+  max-width: 700px;
+  border :1px solid #446354;
+   
+  border-radius:10px;
+  background-color:#272e39  ;
+  box-shadow: rgb(0 0 0 / 7%) 1px 0px 2px 1px;
+  .MuiSvgIcon-root {
+    color: #757575;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+
+  .MediumPosts_TimeStamps {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 6px;
+    width: 100%;
+
+    .MediumPosts_Bookmark {
+      font-size: 25px;
+    }
+
+    .MuiSvgIcon-root {
+      margin: 0 5px;
+    }
+
+    .MediumPosts_TimeStamp_Paragraph {
+      display: flex;
+      align-items: center;
+      color: #757575;
+
+      span {
+        font-family: "Open Sans", sans-serif !important;
+        color: #757575;
+        font-weight: 400;
+        font-size: 13px;
+      }
+    }
+  }
+
+  .MediumPosts_image {
+    margin:  auto;
+    height: 300px;
+    width: 100%;
+    background: red;
+    background-position: center;
+    background-size:cover;
+   // border-radius: 10px 10px 0px 0px;
+  }
+
+  .MediumPost_Text {
+    
+  
+    border-radius: 15px;
+    width: 100%;
+    h2 {
+      margin: 10px;
+      font-weight: 700;
+      font-size: 26px;
+      color: white;
+      font-family: "Open Sans", sans-serif !important;
+    }
+
+    p {
+      float: right;
+      font-weight: 400;
+      color: #7f7f7f;
+      font-size: 12px;
+      width: 100%;
+      margin: 5px ;
+      font-family: "Open Sans", sans-serif !important;
+    }
+  }
+}
+
+.postBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #272b39  ;
+ color: white;
+  .postBody_image {
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    margin: 30px 0;
+
+  }
+
+  .MuiSvgIcon-root {
+    cursor: pointer;
+  }
+
+  .postBody_Container,
+  .MuiSvgIcon-root {
+    cursor: pointer;
+
+  }
+
+  .postContainer {
+    padding: 80px 0px;
+
+  }
+
+  .postBody_icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+    .postBody_Container {
+      display: flex;
+      align-items: center;
+
+      h3 {
+        font-weight: 400;
+        font-size: 17px;
+        margin: 0 10px;
+      }
+    }
+
+    .postBody_Container:last-child {
+      .MuiSvgIcon-root {
+        margin-left: 15px;
+      }
+    }
+
+    .MuiSvgIcon-root {
+      color: #3d3d3d;
+    }
+  }
+
+  .postBody_container {
+    width: 100%;
+    max-width: 700px;
+    img {
+      max-width: 650px;
+      margin: 20px 0;
+    }
+
+    p {
+      text-align:start;
+      color: #e0dada;
+      font-size: 18px;
+      margin: 7px ;
+  line-height: 1.8;
+  font-family: arial, sans-serif;
+      padding: 2rem 0;
+    
+        
+
+ 
+
+   
+    }
+
+    h1 {
+      font-size: 30px;
+      color: white;
+    }
+  }
+
+  h1,
+  h3,
+  p {
+    font-family: "Open Sans", sans-serif !important;
+  }
+}
+
+.PostNav {
+  padding: 10px;
+  background: #030303  ;
+  width: 100%;
+  .PostNav_Container {
+    display: flex;
+    justify-content: space-between;
+    img {
+      max-width: 70px;
+      padding: 5px;
+      
+    }
+    button {
+      text-transform: inherit;
+      font-size: 17px;
+      color: #13426f;
+      padding: 10px 20px;
+    }
+
+    button:last-child {
+      border: 1px solid #13426f;
+      border-radius: 50px;
+    }
+  }
+}
