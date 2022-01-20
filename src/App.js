@@ -9,35 +9,6 @@ import HomePage from './components/HomePage'
 
 function App() {
 
- /* const [user, setUser] = useState(null); */
-/*
-  useEffect(() => {
-    db.auth().onAuthStateChanged(user => {
-      setUser(user);
-    })
-  }, [])
- 
- */
-
-
-
-
-
-
-
-
-
-
- /* const [posts, setPosts] = useState([]);
-
-  useEffect(() => {
-    db.collection("posts").onSnapshot((snapshot) => {
-      setPosts(snapshot.docs.map((doc) => ({ id: doc.id, data: doc.data() })));
-    });
-  }, []);
-
-*/
-
   return (
     <div className="App">
  <Switch>
@@ -61,5 +32,3 @@ function App() {
 
 export default App;
 
-
-//        <Route path="/AddPost" component={AddPost} />
