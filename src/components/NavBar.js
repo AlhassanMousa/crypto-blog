@@ -56,22 +56,4 @@ const NavBar = () => {
 };
 
 export default NavBar;
-       /*     <li>Our Story</li>
-              <li>Add Post</li>
-              <li>Write</li>
-              <li>Sign In</li>      */
-
-/*
-              <li><NavLink to="">Our Story</NavLink></li>
-              <li><NavLink to=""> Add Post</NavLink></li>
-              <li><NavLink to="">Write</NavLink></li>
-              <li><NavLink to="">Sign In</NavLink></li>
-  */
-
-              /**
-               * 
-               * 
-               *        <li>
-                              <button className="button" onClick={signInWithGoogle}><i className="fab fa-google"></i>log</button>
-              </li>
-               */
+   
