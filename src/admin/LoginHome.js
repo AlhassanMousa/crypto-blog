@@ -20,18 +20,3 @@ const LoginHome = () => {
 };
 
 export default LoginHome;
-
-
-/*
-
-          <PrivateRoute exact path="/" component={App} />
-          <Route exact path="/Login" component={Login} />
-          <Route exact path="/signup" component={SignUp} />
-
-*/
-
-/*
-
-          <Route exact path="/signup" component={SignUp} />
-
-*/
