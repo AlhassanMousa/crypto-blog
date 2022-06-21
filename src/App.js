@@ -16,7 +16,12 @@ function App() {
          <NavBar/>
         <HomePage />
         </Route>
-  
+    
+       <Route path="/Trending" >
+         <NavBar/>
+        <Trending />
+        </Route>
+    
         <Route path="/Post/:id">
           <PostBody />
 
